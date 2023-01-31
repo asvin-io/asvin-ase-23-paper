@@ -1,0 +1,46 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:002d9ffb-5814-4c60-94a5-0e2f03aaa281",
+  "metadata": {
+    "timestamp": "2023-01-25T07:18:15.958Z",
+    "authors": [
+      {
+        "name": "rohit bohara",
+      }
+    ],
+    "component": {
+      "name": "test-software",
+      "version": "v1.5.3"
+    }
+  },
+  "components": [
+    {
+      "name": "crypto-js",
+      "version": "3.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "27a2ce6762216b86a4802c2a4eb66c08b740e72fe42753314681b3b3fc6d21f15268b4acd6010d1f39d58d81335997ee9f3b7dca25625eaf1b3b54724f57ae86"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://spdx.org/licenses/MIT.html"
+          }
+        }
+      ],
+      "purl": "pkg:npm/crypto-js@3.2.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:application/test-software@1.5.3",
+      "dependsOn": [
+        "pkg:npm/crypto-js@3.2.0"
+      ]
+    }
+  ]
+}
